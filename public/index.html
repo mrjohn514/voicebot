@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Voice Bot</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.3.1/socket.io.js"></script>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1>Voice Bot</h1>
+    <form method="POST" action="/process-query" class="form">
+      <label for="query" class="form-label">Speak your query:</label>
+      <button type="button" id="speak-button" class="btn">Speak</button>
+      <button type="button" id="stop-button" class="btn">Stop</button>
+    </form>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
